@@ -41,9 +41,9 @@ Create a Power BI Dashboard to analyze the credit default risk of HOME CREDIT
 ## :three: Tools used:
 - Power BI (Power Query, DAX measures, Visuals)
 ## :four: Dashboard Structure:
-:one: **Overall Loan Portfolio:** analyzes the distribution and characteristics of loan disbursement across different customer segments and financial metrics.
-:two: **Internal Default Risk:** explores loan default patterns, risk indicators, and how default rate varies by credit profile and borrower demographics.
-:three: **External Credit History:** analyzes how customers’ external credit behavior (number of active loans, avg outstanding debts, etc) affects their default risk.
+1️⃣ **Overall Loan Portfolio:** analyzes the distribution and characteristics of loan disbursement across different customer segments and financial metrics.
+<br>2️⃣ **Internal Default Risk:** explores loan default patterns, risk indicators, and how default rate varies by credit profile and borrower demographics.
+<br>3️⃣ **External Credit History:** analyzes how customers’ external credit behavior (number of active loans, avg outstanding debts, etc) affects their default risk.
 - Each page has a INFO button to display the meaning of each KPI and a FILTER button to filter by demographics
 - Illustration:
     + Info:
@@ -72,8 +72,27 @@ Create a Power BI Dashboard to analyze the credit default risk of HOME CREDIT
 
 #### 4. By Average Credit Score:
 - Customer Segments with mid-level Average Credit Score (0.4-->0.7) have the highest total disbursement, and the highest number of loans
-- There is a positive correlation between Average Credit Score and Avg Loan Amount, suggesting that the company strictly consider the Loan Amount based on customers' credit scores
-- By contrast, there is a negative correlation between Average Credit Score and Default Rate. To be more specific, low credit score buckets (0,0.1] and (0,0.2] have significantly higher Default Rates (31.71% and 26.54% respectively), which have 
+- There is a positive correlation between Average Credit Score and Avg Loan Amount, suggesting that the loan disbursement policy appropriately adjusts loan size based on borrowers’ creditworthiness.
+<br> ➡️ The company appears to apply a risk-based pricing or approval approach, granting larger loans to more creditworthy customers.
+- By contrast, there is a negative correlation between Average Credit Score and Default Rate. Specifically, applicants in the lowest credit score buckets (e.g., (0,0.1] and (0.1,0.2]) exhibit exceptionally high default rates (31.71% and 26.54% respectively), despite small loan volumes.
+<br>➡️ To minimize risk exposure, loan approval processes should include stricter eligibility criteria or additional scrutiny for applicants with very low credit scores.
+
+#### 4. By Demographics:
+| Demographics            | Conclusion        | Dominant Segment    |
+|-------------------------|-------------------|---------------------|
+|Gender| - **Female** borrowers represent a more reliable segment in terms of creditworthiness and portfolio quality. Specifically, they contribute the most to disbursement volume with a higher credit score (0.519) and lower default rate (7%).<br>- **Male** borrowers, while receiving larger average loans, pose higher risk, reflected in their higher default rate (10.14%).  | Female|
+|Age|- **Middle Age Groups (36-45,46-55)** have the highest total disbursement and the highest average loan amount, while **65+ and (18-25) Age Groups** have the lowest figures, likely due to their financial limits  <br>- There's a negative correlation between age and default rate ➡️ Younger age groups, especially under 35, pose higher credit risk and should be more tightly assessed in lending policies.  | Middle Age (36-55)|
+|Income Level|   |   |
+|Income Type| Giá trị 2.2  | 
+|Occupation| Giá trị 2.2  | 
+|Contract Type| Giá trị 2.2  | 
+|Education| Giá trị 2.2  | 
+|Family Status| Giá trị 2.2  | 
+|Housing Type| Giá trị 2.2  | 
+|Region| Giá trị 2.2  | 
+
+➡️ The target loan portfolio is primarily composed of female customers aged 36–55
+
 
 ### :two: Internal Default Risk: <br>
 ![alt](https://github.com/NguyenPhuongNghi/Credit-Default-Analysis/blob/main/photos/Screenshot%202025-07-18%20223833.png?raw=true)
