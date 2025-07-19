@@ -143,10 +143,14 @@ The customer segment most prone to loan defaults primarily includes male borrowe
 - The overall default rate is the highest in middle-level debt ranges and drops sharply for customers with the highest debt levels (Above 587K), possibly due to stricter lending criteria or more robust financial profiles in this group.
 <br>➡️**Conclusion:** Borrowers with low to moderate debt but high external loan-to-income ratios are particularly vulnerable to default, highlighting the importance of monitoring not just absolute debt levels but also relative borrowing capacity.
 
-
-
-
-
-
-
 ### :six: Insights:
+|No.| Insight  | Solution            | Details        |
+|---|-----|-------------------|-------------------|
+|1| Borrowers aged 18–25 and 26–35 have the highest default rates (13.2% and 11.7%, respectively)|Tighten Lending for Younger Age Segments|- Implement stricter credit checks or require guarantors/co-signers for younger applicants.<br>- Offer smaller loan amounts or require lower internal/external loan-income ratios for this group.|
+|2| Default rate increases with higher loan-income ratios, especially in (3.6, 7.2] range.  |Cap Loan-to-Income Ratios at High Risk Thresholds    |- Enforce loan-income ratio limits (e.g., max 3.6) for customers with low-to-middle income levels. <br> For high-income borrowers, allow higher ratios but combine with credit history, credit score filters or collateral requirements. |
+|3| Customers with higher external debt (>587K) actually show slightly lower default rates (7.57%) than those in the mid-debt range   |Leverage External Outstanding Debt   | Don’t take tougher actions or limiting access for customers based solely on their total debt levels ➡️ prioritize debt-to-income and credit behavior instead. <br> Monitor external debt trends over time for early warning signals.    |
+|4| Borrowers with credit scores >0.5 have very low default rates (under 5%) |Prioritize High-Credit Score Segments   | - Create premium loan products or fast-track approvals for customers with high credit scores. <br>- Use score-based pricing to reward low-risk borrowers with better interest rates.    |
+|5|Borrowers living with parents or in rented/municipal apartments face highest default rates (11%–13%).|Adjust Lending Based on Housing Type   | - Apply stricter screening or loan caps for borrowers with high-risk housing types. <br> - Consider housing stability as a variable in the credit scoring model.  |
+|6|  Default rate rises sharply with more than 3 active loans (up to 17.2% at 10+ loans)  | - Manage Risk by Number of Active Loans    | - Limit the number of concurrent loans per customer. <br>-Monitor and flag customers reaching 4+ active loans for review or intervention. |
+|7|  Borrowers in the middle-income range (135K–162K) have the highest default rates (8.68%), while high-income (>225K) borrowers are at lower risk of default.   | Target Middle-Income Segments| - Conduct enhanced risk assessments for middle-income segments.<br>- Provide financial literacy support to help them manage loan obligations better.
+
