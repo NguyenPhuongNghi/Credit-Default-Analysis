@@ -50,7 +50,7 @@ Create a Power BI Dashboard to analyze the credit default risk of HOME CREDIT
 ![alt](https://github.com/NguyenPhuongNghi/Credit-Default-Analysis/blob/main/photos/Screenshot%202025-07-18%20223534.png?raw=true)
     + Filter:
 ![alt](https://github.com/NguyenPhuongNghi/Credit-Default-Analysis/blob/main/photos/Screenshot%202025-07-18%20223634.png?raw=true)
-## :five: Dashboard: [attached file]()
+## :five: Dashboard: [attached file](https://drive.google.com/file/d/1xjdhMy81GvCq0IQm3Wse2YTd0iHleKGX/view?usp=sharing)
 ### :one: Overall Loan Portfolio: <br>
 ![alt](https://github.com/NguyenPhuongNghi/Credit-Default-Analysis/blob/main/photos/Screenshot%202025-07-18%20223401.png?raw=true)
 #### 1. By Income Level:
