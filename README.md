@@ -53,6 +53,27 @@ Create a Power BI Dashboard to analyze the credit default risk of HOME CREDIT
 ## :five: Dashboard: [attached file]()
 ### :one: Overall Loan Portfolio: <br>
 ![alt](https://github.com/NguyenPhuongNghi/Credit-Default-Analysis/blob/main/photos/Screenshot%202025-07-18%20223401.png?raw=true)
+#### 1. By Income Level:
+- Highest disbursement in the 163K–225K income group (~52B), followed by 100K–135K.
+- Mid-income segments also has the highest number of loans 
+--> Mid-income segments are the primary target for lending. They might be the most responsive or least risky in this strategy.
+- Although the high-income segment (above 225K) has lower total disbursement and lower number of loans, its average loan amount (883K) is significantly higer than other segments, suggesting higher borrowing capacity.
+- Average Credit Score of the high-income segment is also the highest (0.536) and its default rate is the lowest 6.52%, indicating stronger creditworthiness
+<br>➡️ This suggest that High-income Segment is a low-risk, high-value segment.
+<br>➡️ Strategic focus on expanding outreach, offering premium products, or increasing approval rates in this group could boost portfolio quality and margin performance.  
+
+#### 2. By External Outstanding Debt Level:
+- Customer Segment with the highest Outstanding Debt Level has the the highest total disbursement (~26,5B), the highest average loan amount, the highest avg credit score but th- e lowest default rate
+➡️ This is understandable because Customers who have high External Outstanding Debt are nornally those with upper-middle and high income level, and good credit score
+
+#### 3. By Internal Loan - Income Ratio:
+- Customers with a ratio >5.7 receive the most loans (~64.6B) and its average loan amount is also the highest (~1M). However, this group has the highest avg credit score (0.528) and the lowest default rate (7.24%), indicating strong creditworthiness
+- Group with the lowest ratio is also monitored effectively, shown by its relatively low default rate (7.31%), while the figures for groups with middle-level ratios are higher (~8.5% on average)
+
+#### 4. By Average Credit Score:
+- Customer Segments with mid-level Average Credit Score (0.4-->0.7) have the highest total disbursement, and the highest number of loans
+- There is a positive correlation between Average Credit Score and Avg Loan Amount, suggesting that the company strictly consider the Loan Amount based on customers' credit scores
+- By contrast, there is a negative correlation between Average Credit Score and Default Rate. To be more specific, low credit score buckets (0,0.1] and (0,0.2] have significantly higher Default Rates (31.71% and 26.54% respectively), which have 
 
 ### :two: Internal Default Risk: <br>
 ![alt](https://github.com/NguyenPhuongNghi/Credit-Default-Analysis/blob/main/photos/Screenshot%202025-07-18%20223833.png?raw=true)
